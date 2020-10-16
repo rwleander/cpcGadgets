@@ -60,13 +60,12 @@ void loop() {
   //  show remaining minutes
   
   void setPixel() {
-    int  i = seconds / interval;
-    if (i < 0) i = 0;
-    if (i > 9) i = 9;
-	
-    CircuitPlayground.clearPixels();
+    CircuitPlayground.clearPixels();    
     if (counting) {
-CircuitPlayground.setPixelColor(9 - i, color);  
-    }
+      int  i = seconds / interval;
+	  if (i < 0) i = 0;
+      if (i > 9) i = 9;
+      CircuitPlayground.setPixelColor(9 - i, color);
+  } 
   }
   
