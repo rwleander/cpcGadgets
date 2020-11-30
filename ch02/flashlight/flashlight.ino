@@ -7,11 +7,6 @@
 #define color 0xFFFFFF
 #define brightness 200
 
-//  declare functions
-
-void setPixels();
-void clearPixels();
-
 //  global variables
 
 bool isLit = false;
@@ -38,7 +33,7 @@ void loop() {
 //  set pixels  on
 
 void setPixels() {
-  if (isLit) {    
+  if (isLit == false) {    
     for (int i=0; i<10; i++) {
       CircuitPlayground.setPixelColor(i, color); 
     }    

@@ -9,10 +9,6 @@
 #define clickTone 440
 #define clearTone 220
 
-//  declare functions
-
-void setPixel(int i);
-
 //  global variables
 
 int n = 0;
@@ -25,11 +21,9 @@ void setup() {
   CircuitPlayground.setBrightness (brightness);  
 }  
  
-
 //  loop - count when buttons are pressed
     
 void loop() {   
-
   if (CircuitPlayground.leftButton()) {
     n++;    
     CircuitPlayground.playTone (clickTone, 200);
@@ -51,6 +45,7 @@ void loop() {
 }
   
 //  set pixel starting with 1 on the top left, rounding to 0 on the top right
+
 void setPixel(int i) {
   CircuitPlayground.clearPixels();
   if (i > 0) {
@@ -58,6 +53,6 @@ void setPixel(int i) {
   }
   else{
     CircuitPlayground.setPixelColor(9, color);          
- }
+  }
 }
   

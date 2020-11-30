@@ -9,13 +9,6 @@
 #define brightness 200
 #define tone 440
 
-//  declare function
-
-void checkLeft();
-void checkCenter();
-void checkRight();
-int getPitch(float a);
-
 //  global variables
 
 float x = 0.0;
@@ -28,7 +21,6 @@ void setup() {
   CircuitPlayground.clearPixels(); 
   CircuitPlayground.setBrightness (brightness);    
 }  
- 
 
 //  loop - read accelerometer and display highest pixel
     
@@ -89,26 +81,26 @@ void checkCenter() {
     case -1:
       CircuitPlayground.setPixelColor(4, color);
       CircuitPlayground.setPixelColor(5, color);
-       break;
+      break;
   }
 }
 
 //  tilt to the right
 
 void checkRight() {
-switch (getPitch(y)) {
-  case 1: 
-    CircuitPlayground.setPixelColor(9, color);
-    CircuitPlayground.setPixelColor(8, color);
-    break;
-  case 0:
-    CircuitPlayground.setPixelColor(7, color);
-    break;
-  case -1:
-    CircuitPlayground.setPixelColor(6, color);
-    CircuitPlayground.setPixelColor(5, color);
-    break;
-}
+  switch (getPitch(y)) {
+    case 1: 
+      CircuitPlayground.setPixelColor(9, color);
+      CircuitPlayground.setPixelColor(8, color);
+      break;
+    case 0:
+      CircuitPlayground.setPixelColor(7, color);
+      break;
+    case -1:
+      CircuitPlayground.setPixelColor(6, color);
+      CircuitPlayground.setPixelColor(5, color);
+      break;
+  }
 }
 
 //  see if accelerometer value is positive (1), negative (-1) or level (0)
