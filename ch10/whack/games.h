@@ -7,6 +7,7 @@
 //  functions
 
 void showPixel(int n);  
+void showAllPixels(uint32_t color);
 void hidePixel();
 int readTouch(int repeat);
 void taDa();

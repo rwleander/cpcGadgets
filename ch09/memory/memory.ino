@@ -99,8 +99,8 @@ bool readNotes() {
     t = notes[i];
     if (readTouch() != t) {
       return false;
-	}
-	
+    }
+    
     i++;
   }
   
@@ -130,14 +130,13 @@ int readTouch() {
 //  play win sound
 
 void taDa() {
-	 float freq = 880;
-	  
+  float freq = 880;
+      
   delay(500);
   CircuitPlayground.playTone(freq,  200);
   delay(50);
   CircuitPlayground.playTone(freq, 1000);
 }
-
 
 //  play lose tone 
 

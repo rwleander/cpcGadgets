@@ -25,9 +25,19 @@ void showPixel(int n) {
   CircuitPlayground.playTone(tones[n], toneLength, false);
 }
 
+//  set all pixels
+
+void showAllPixels(uint32_t color) {
+  CircuitPlayground.clearPixels();
+  for (int i = 0; i < 10; i++) {
+    CircuitPlayground.setPixelColor(i, color);
+  }
+}
+
 //  clear pixel
+
 void hidePixel() {
-	  CircuitPlayground.clearPixels();
+  CircuitPlayground.clearPixels();
 }
 
 //  read touch pads
@@ -40,7 +50,7 @@ int readTouch(int repeat) {
     if (CircuitPlayground.readCap(1) > minTouch) return 1;
     if (CircuitPlayground.readCap(10) > minTouch) return 2;
     if (CircuitPlayground.readCap(6) > minTouch) return 3;
-	n++;
+    n++;
   }
 
   return -1;
@@ -49,19 +59,24 @@ int readTouch(int repeat) {
 //  play win sound
 
 void taDa() {
-	 float freq = 880;
-	  
+  float freq = 880;
+      
   delay(500);
+  showAllPixels(yellow);
   CircuitPlayground.playTone(freq,  200);
+  hidePixel();
   delay(50);
+  showAllPixels(yellow);
   CircuitPlayground.playTone(freq, 1000);
+  hidePixel();
 }
-
 
 //  play lose tone 
 
 void razz() {
   delay (500);
+  showAllPixels(red);
   CircuitPlayground.playTone(150, 1500);
+  hidePixel();
 }
 

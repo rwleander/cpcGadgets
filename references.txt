@@ -1,0 +1,104 @@
+References
+
+
+Introduction
+
+Arduino Create, Develop Arduino sketches online: 
+  https://create.arduino.cc/
+
+Notepad++ Code Editor:
+  https://notepad-plus-plus.org/
+
+Atom Code Editor:  
+  https://atom.io/
+
+Visual Studio Code:
+  https://code.visualstudio.com/
+
+OSDN, Tera Term Home Page:
+  https://osdn.net/projects/ttssh2/
+
+Circuit Playground Library Reference:
+  https://caternuson.github.io/Adafruit_CircuitPlayground/
+
+
+Project 1
+
+Arduino-cli GIT Hub site:
+  https://github.com/arduino/arduino-cli
+
+Arduino-cli download page:
+  https://github.com/arduino/arduino-cli/releases
+
+Arduino-cli getting started:
+  https://arduino.github.io/arduino-cli/latest/getting-started/
+
+Adafruit Learning System, Set up the Arduino IDE:
+  https://learn.adafruit.com/adafruit-circuit-playground-express/set-up-arduino-ide
+
+
+Adafruit Learning System, Flashing Circuit Python: 
+  https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-quickstart
+
+
+Project 3
+
+Educalc.net, Blaise Pascal - first digital calculating machine :  
+  https://www.educalc.net/196488.page
+
+Amazon.com, Tally Counters: 
+  https://www.amazon.com/Tally-Counter/s?k=Tally+Counter
+
+Adafruit, Circuit Playground Library Reference:
+  https://caternuson.github.io/Adafruit_CircuitPlayground/
+
+
+Project 6
+
+Hultafors Tools, The History of Spirit Levels:
+  https://www.hultafors.com/articles/spirit_levels__the_history_of_spirit_levels
+
+Dimension Engineering, A beginner's guide to accelerometers:
+  https://www.dimensionengineering.com/info/accelerometers
+
+
+Project 8
+
+Omega Engineering, How to Measure Light Intensity:
+  https://www.omega.com/en-us/resources/shining-a-light-on-intensity-measurement
+
+Adafruit, Circuit Playground Classic Pin-Outs:
+  https://learn.adafruit.com/introducing-circuit-playground/pinouts
+
+Adafruit, Circuit Playground Express Pin-Outs:
+  https://learn.adafruit.com/adafruit-circuit-playground-express/pinouts
+
+Adafruit, NeoPixel library:
+  https://github.com/adafruit/Adafruit_NeoPixel
+
+
+Project 9
+
+National Museum of American History, Simon Electronic Game:
+  https://americanhistory.si.edu/collections/search/object/nmah_1302005
+
+Computing History, Merlin, the Electronic Wizard:
+  http://www.computinghistory.org.uk/det/16957/Merlin-the-Electronic-Wizard/
+
+Adafruit, Alligator Pads and Inputs:
+  https://learn.adafruit.com/circuit-playground-lesson-number-0/alligator-pads-pinout
+
+
+Project 10
+
+MEL Magazine, An Oral History of Whack-a-Mole:
+  https://melmagazine.com/en-us/story/whac-a-mole-oral-history
+
+
+
+
+
+
+
+
+

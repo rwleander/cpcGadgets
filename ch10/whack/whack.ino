@@ -8,11 +8,11 @@
 #define brightness 200
 
 #ifdef __AVR__
-#define wait 500
-#define step 20
+  #define wait 500
+  #define step 20
 #else
-#define wait 30
-#define step 1
+  #define wait 30
+  #define step 1
 #endif
 
 
@@ -34,7 +34,6 @@ void loop() {
   }
 }
 
-
 //  main game loop
 
 void playGame() {
@@ -43,22 +42,21 @@ void playGame() {
   int n = 0;
   int tone = 0;
   int w = wait;
-  
       
   while ((n < turns) && (hits < winner)) {
-	  tone = random(4);
-showPixel(tone);
-if (tone == readTouch(w)) hits++;
-hidePixel();
-delay(250);
-		w -= step;
-	    n++;
+    tone = random(4);
+    showPixel(tone);
+    if (tone == readTouch(w)) hits++;
+    hidePixel();
+    delay(250);
+    w -= step;
+    n++;
   }
   
   if (hits >= winner) {
-	    taDa();
+    taDa();
   }
-else{
-	razz();
-}	
+  else{
+    razz();
+} 
 }
