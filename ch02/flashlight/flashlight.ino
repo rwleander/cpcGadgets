@@ -1,4 +1,4 @@
-//  flashlight with on/off switch and brightness control
+//  flashlight with on/off switch  
 
 #include <Adafruit_CircuitPlayground.h>
 

@@ -51,15 +51,15 @@ void loop() {
   delay (1000);
 }
   
-  //  show remaining intervals
+//  show remaining intervals
   
-  void setPixel() {
-    CircuitPlayground.clearPixels();    
-    if (isActive) {
-      int  i = seconds / interval;
-	  if (i < 0) i = 0;
-      if (i > 9) i = 9;
-      CircuitPlayground.setPixelColor(9 - i, color);
+void setPixel() {
+  CircuitPlayground.clearPixels();    
+  if (isActive) {
+    int  i = seconds / interval;
+    if (i < 0) i = 0;
+    if (i > 9) i = 9;
+    CircuitPlayground.setPixelColor(9 - i, color);
   } 
-  }
+}
   

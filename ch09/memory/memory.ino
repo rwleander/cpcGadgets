@@ -4,7 +4,7 @@
 
 #define winner  10
 #define toneLength 500
-#define minTouch 50
+#define minTouch 400
 
 #define red 0xC00000
 #define green 0x00C000

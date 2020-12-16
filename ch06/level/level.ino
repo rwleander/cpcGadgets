@@ -26,8 +26,7 @@ void setup() {
     
 void loop() {   
   CircuitPlayground.clearPixels();
-
-//  read accelerometer
+///  read accelerometer
 
   x = CircuitPlayground.motionX();
   y = CircuitPlayground.motionY();

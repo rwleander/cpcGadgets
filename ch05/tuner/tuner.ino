@@ -22,15 +22,15 @@ void setup() {
 //  loop - check buttons
     
 void loop() {   
-    if (CircuitPlayground.leftButton()) {
-		  CircuitPlayground.playTone (strings[i], 1000);
-	}
-	
-	if (CircuitPlayground.rightButton()) {
-		  i++;	
-	if (i > 5) {
-		  i = 0;
-	}
-	CircuitPlayground.playTone(strings[i], 1000);
-	}		
+   if (CircuitPlayground.leftButton()) {
+      CircuitPlayground.playTone (strings[i], 1000);
+   }
+    
+   if (CircuitPlayground.rightButton()) {
+     i++;  
+     if (i > 5) {
+       i = 0;
+     }
+    CircuitPlayground.playTone(strings[i], 1000);
+  }       
 }
