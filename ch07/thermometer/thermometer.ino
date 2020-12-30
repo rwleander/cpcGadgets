@@ -1,3 +1,8 @@
+//  Arduino code for the book 'Games and Gadgets for the Circuit Playground'
+//    by Rick Leander
+//  Copyright (c) 2021 Rick Leander All rights reserved
+//  Buy the book at https://www.amazon.com/author/rleander
+//
 //  thermometer
 
 #include <Adafruit_CircuitPlayground.h>

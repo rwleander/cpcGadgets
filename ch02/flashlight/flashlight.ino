@@ -1,4 +1,9 @@
-//  flashlight with on/off switch  
+//  Arduino code for the book 'Games and Gadgets for the Circuit Playground'
+//    by Rick Leander
+//  Copyright (c) 2021 Rick Leander All rights reserved
+//  Buy the book at https://www.amazon.com/author/rleander
+//
+//  flashlight  
 
 #include <Adafruit_CircuitPlayground.h>
 
