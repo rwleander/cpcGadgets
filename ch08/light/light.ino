@@ -33,7 +33,7 @@
 Adafruit_NeoPixel pixels(10, pixelPin, NEO_GRB + NEO_KHZ800);
 int  pixelMap[] = {4, 3, 2, 1, 0, 9, 8, 7, 6, 5};
 
-//  setup - set pixels on
+//  setup  
 
 void setup() {
   pixels.begin();
@@ -42,7 +42,7 @@ void setup() {
   Serial.begin (9600);  
 }
 
-//  loop - get temperature and display
+//  loop - get light and display
     
 void loop() {   
   int light = analogRead(sensorPin);

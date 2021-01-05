@@ -18,7 +18,7 @@
 float strings[] = {E / 2, A / 2, D, G, B, E * 2};
 int i = 0;
 
-//  setup - set pixels on
+//  setup  
 
 void setup() {
   CircuitPlayground.begin();

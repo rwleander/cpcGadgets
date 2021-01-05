@@ -21,7 +21,7 @@
 #endif
 
 
-//  setup - set pixels on
+//  setup  
 
 void setup() {
   CircuitPlayground.begin();
@@ -30,7 +30,7 @@ void setup() {
   randomSeed(analogRead(A0));  
 }
 
-//  loop - turn on and off pixels
+//  loop  
     
 void loop() {   
   if (CircuitPlayground.leftButton()) {

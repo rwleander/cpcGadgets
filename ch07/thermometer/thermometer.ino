@@ -16,7 +16,7 @@
 
 int  pixels[] = {4, 3, 2, 1, 0, 9, 8, 7, 6, 5};
 
-//  setup - set pixels on
+//  setup  
 
 void setup() {
   CircuitPlayground.begin();

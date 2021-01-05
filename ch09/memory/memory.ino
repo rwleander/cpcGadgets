@@ -26,7 +26,7 @@ float tones[] = {261.63, 293.66, 329.63, 349.23};
 int notes[11];
 int n = 0;
 
-//  setup - set pixels on
+//  setup  
 
 void setup() {
   CircuitPlayground.begin();
@@ -35,7 +35,7 @@ void setup() {
   randomSeed(analogRead(A0));  
 }
 
-//  loop - turn on and off pixels
+//  loop  
     
 void loop() {   
   if (CircuitPlayground.leftButton()) {

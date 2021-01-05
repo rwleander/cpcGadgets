@@ -19,7 +19,7 @@
 int seconds = 0;
 bool isActive = false;
 
-//  setup - set pixels on
+//  setup  
 
 void setup() {
   CircuitPlayground.begin();

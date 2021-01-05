@@ -18,7 +18,7 @@
 
 int n = 0;
 
-//  setup - set pixels on
+//  setup  
 
 void setup() {
   CircuitPlayground.begin();
